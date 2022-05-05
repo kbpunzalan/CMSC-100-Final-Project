@@ -1,0 +1,27 @@
+.ads {
+    display: flex;
+    flex-direction: column;
+}
+
+.ad-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    row-gap: 10px;
+    background: #F8ECD1;
+    border-radius: 15px;
+    border: solid;
+    max-width: 90%;
+    flex-grow: 1;
+
+}
+
+.a-image {
+    min-width: 100%;
+    max-width: 0px;
+}
+
+.separate {
+    margin: 10px;
+}
